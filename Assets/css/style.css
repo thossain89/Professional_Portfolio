@@ -205,9 +205,10 @@ p {
   }
 
 
-.section1, .section2, .section3 {
+.section1, .section2 {
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
     width: 100%;
     padding-top: 50px;
     margin-bottom: 0px;
@@ -264,12 +265,20 @@ p {
     margin-bottom: 25px;
 }
 
- #contact {
-    background-color: #f0ead6;
-  }
-
+.section3 {
+    
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding: 50px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #d9dcd6;
+    color: #ffffff;
+}
+ 
 .contact-section h3 {
-    display:block;
+    
     justify-content: center;
     padding:3em 0;
     text-align: center;
@@ -280,6 +289,19 @@ p {
 	color: #2a404e;
 
 }
+ 
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:600px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: #52796f;
+    padding: 20px;
+  }
+
+
 
   input[type=text], select, textarea {
     width: 100%; 
@@ -307,12 +329,7 @@ p {
     background-color: #45a049;
   }
   
-  
-  .container {
-    border-radius: 5px;
-    background-color: #52796f;
-    padding: 20px;
-  }
+
 
 .footer {
     padding: 30px;
