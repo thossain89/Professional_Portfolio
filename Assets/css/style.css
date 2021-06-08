@@ -6,6 +6,7 @@
 }
 
 body {
+    
     background-color: #d9dcd6;
     
 }
@@ -179,7 +180,9 @@ p {
 }
 /* STYLE FOR COVER PHOTO AND SUBTITLE*/
 .cover {
-    display: block;  
+    display: flex; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
     position: relative;
     text-align: center;
     color: white;
@@ -264,6 +267,41 @@ p {
 	line-height: 1.5em;
     margin-bottom: 25px;
 }
+.products {
+    flex:0,0,300px;
+    background-color: #d9dcd6;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  /* Added rotation, box-shadow, border-radius */
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    transform:none;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  /* Added border-radius to match the card */
+  .card header {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
 
 .section3 {
     
@@ -279,8 +317,8 @@ p {
  
 .contact-section h3 {
     
-    justify-content: center;
-    padding:3em 0;
+    
+    padding:2em 0;
     text-align: center;
 	font-size: 2.5em;
 	font-family: 'Arvo', serif;
@@ -292,8 +330,9 @@ p {
  
   .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    margin-left: 25%;
     height:600px;
     width: 600px;
     border-radius: 5px;
@@ -329,7 +368,7 @@ p {
     background-color: #45a049;
   }
   
-
+ 
 
 .footer {
     padding: 30px;
