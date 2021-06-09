@@ -189,6 +189,7 @@ p {
    
 }
 
+
 .top-left {
     position: absolute;
     top: 10px;
@@ -208,6 +209,9 @@ p {
   }
 
 
+
+/* style for About Me section*/
+
 .section1 {
     display: flex;
     justify-content:center;
@@ -223,11 +227,8 @@ p {
 }
 
 
-
-.about-section {
-	padding:3em 0;
-}
 .about-header {
+    padding:3em 0;
 	text-align: center;
 }
 .about-header h3 {
@@ -243,6 +244,7 @@ p {
 
 }
 .about-imag {
+
     padding-top: 10px;
 	float: left;
 	width:27%;
@@ -267,9 +269,8 @@ p {
 	line-height: 1.5em;
     margin-bottom: 25px;
 }
-
+/* Style for My work section*/
 .section2 {
-
     
     width: 100%;
     padding-top: 50px;
@@ -291,7 +292,7 @@ p {
    
   }
   
-  /* Added box-shadow, border-radius to the cards*/
+  /* Added box-shadow, border-radius to the project cards*/
 
   .card-top {
 
@@ -307,7 +308,7 @@ p {
   }
 
   .card {
-   
+    background-color:#CA4246;
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
@@ -343,8 +344,31 @@ p {
     width: 100%;
   }
 
+/* Card Animation*/
+
+.card-top:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-delay: 0.10s; 
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-delay: 0.10s;  
+}
+
+  /*Style for contact me section*/
+
 .section3 {
-    
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     padding-top: 50px;
     margin-bottom: 0px;
@@ -371,10 +395,7 @@ p {
 .container {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-left: 25%;
-    height:600px;
-    width: 600px;
+    flex-wrap: wrap;    
     border-radius: 5px;
     background-color: #52796f;
     padding: 20px;
