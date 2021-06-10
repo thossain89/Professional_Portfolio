@@ -231,7 +231,7 @@ p {
     padding:3em 0;
 	text-align: center;
 }
-.about-header h3 {
+.section1 h3 {
     
 	font-size: 2.5em;
 	font-family: 'Arvo', serif;
@@ -244,9 +244,8 @@ p {
 
 }
 .about-imag {
-
+    
     padding-top: 10px;
-	float: left;
 	width:27%;
 	margin-right:5%
 }
@@ -260,7 +259,6 @@ p {
 .about-text {
    
 	float: left;
-	width: 65%;
 	margin-top:3%; 
 }
 .about-text p {
@@ -441,3 +439,4 @@ input[type=email]:hover {
 .footer h2 {
     font-size: 20px;
 }
+
