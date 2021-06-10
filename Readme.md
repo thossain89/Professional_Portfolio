@@ -12,7 +12,7 @@
 * The website should be responsive and can be viewed from multiple devices.
 
 ```  
-## This is the ver 0.1 of the portfolio. It is made with the options to add more functionality in future.  
+### This is the ver 0.1 of the portfolio. It is made with the options to add more functionality in future.  
 
   
   
