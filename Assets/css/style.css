@@ -59,7 +59,7 @@ p {
     display: inline-block;
     font-size: 48px;
    
-/* Fallback: Set a background color. */
+/*Animated color styling for website name */
   background-color: #CA4246;
   
 /* Create the gradient. */
@@ -87,18 +87,13 @@ p {
   -webkit-text-fill-color: transparent; 
   
   /* Animate the text when loading the element. */
-    /* This animates it on page load and when hovering out. */
-    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+    /* This animates it on page load */
+    animation: rainbow-text-simple-animation-rev 1.5s ease forwards;
 
 }
-
-.gradient-text:hover{
-    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-}
-
 
 /* Move the background and make it smaller. */
-/* Animation shown when entering the page and after the hover animation. */
+/* Animation shown when entering the page  */
 @keyframes rainbow-text-simple-animation-rev {
     0% {
         background-size: 650%;
@@ -108,20 +103,6 @@ p {
     }
     100% {
         background-size: 100%;
-    }
-}
-
-/* Move the background and make it larger. */
-/* Animation shown when hovering over the text. */
-@keyframes rainbow-text-simple-animation {
-    0% {
-        background-size: 100%;
-    }
-    80% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 650%;
     }
 }
 
@@ -189,7 +170,6 @@ p {
    
 }
 
-
 .top-left {
     position: absolute;
     top: 10px;
@@ -199,7 +179,7 @@ p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  .bottom-right {
+.bottom-right {
     position: absolute;
     bottom:10px;
     right: 16px;
@@ -243,13 +223,17 @@ p {
 	color: #ef664d;;
 
 }
-.about-imag {
+.about-image {
     
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     padding-top: 10px;
-	width:27%;
-	margin-right:5%
+	
 }
-.about-imag img {
+.about-image img {
     
     height: 300px;
     width: 300px;
@@ -292,7 +276,7 @@ p {
   
   /* Added box-shadow, border-radius to the project cards*/
 
-  .card-top {
+.card-top {
 
     background-color:#CA4246;
     border-style: solid;
@@ -305,7 +289,7 @@ p {
     margin: 20px;  
   }
 
-  .card {
+.card {
     background-color:#CA4246;
     border-style: solid;
     border-width: 1px;
