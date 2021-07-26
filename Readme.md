@@ -1,18 +1,24 @@
-# Professional Portfolio
+# Updated Professional Portfolio
 
-## This is the Second week task for Coding Bootcamp. The task is to create a professional portfolio. There are few key requirements for this task. The requirements are as follows:  
+## This is the updated version of old portfolio. I have used the knowledge I gained from coding bootcamp and online examples of other full stack developer to create my updated portfolio.  
+
+### The function used creating the new portfolio are
 
 ```
-* When the portfolio is loaded it comes up with developers name and recent photo.
-* There should be different sections about the developer, their work and their contact info.
-* Functional Nav Bar which will help to navigate in each section.
-* When presented with their work the tiled section should be linked to their work.
-* The first application in the list should be highlighted in the tile group (Larger in size)
-* The links used should be functioning and deploy to to correct pages.
-* The website should be responsive and can be viewed from multiple devices.
+* Bootstrap Framework.  
+
+* For styling and animation  
+
+  * Glightbox.
+  * Swiper.
+  * Typed.
+  * Purecounter.  
+
+* Prebuilt Javascript open source packages for easy handling of selectors.
+
 
 ```  
-### This is the ver 0.1 of the portfolio. It is made with the options to add more functionality in future.  
+### This is the ver 2.0 of the portfolio. It is made with the options to add more functionality in future.  
 
   
   
